@@ -1,8 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #f5f5f5;
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "HelveticaNeue", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+
+.todoMVC_container {
+  background: #fefefe;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.todoMVC_title {
+  text-align: center;
+}
+
+.todoMVC_addItemInput {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.todoMVC_todoItem,
+.todoMVC_todoItem_completed {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.todoMVC_todoItem_completed {
+  text-decoration: line-through;
+}
+
+.todoMVC_todoItemIsCompleteCheckbox {
+  margin-right: 1rem;
+}
+
+.todoMVC_todoItemDelete {
+  cursor: pointer;
+  float: right;
 }

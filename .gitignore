@@ -31,3 +31,4 @@ npm-debug.log
 
 # Webpack bundles
 public/javascripts/bundle/
+public/bundle/app.js
